@@ -1,0 +1,82 @@
+.Dashboard {
+  display: grid;
+  grid-template-columns: 26rem 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+.main {
+  padding: 4rem 4.8rem 6.4rem;
+  background-color: #212121;
+}
+.container__dashboard {
+  background-color: 363640;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.generate {
+  background-color: #212121;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.generate h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.generate p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+  text-wrap: wrap;
+}
+
+.test {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.test p {
+  margin-bottom: 10px;
+}
+
+.ask {
+  justify-content: center;
+  bottom: 20px;
+  padding: 1.2rem;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.ask input {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.send-icon {
+  color: #ffffffe7;
+  background-color: #f26100d3;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 27px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.attach-icon {
+  color: #ffffffe7;
+
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 27px;
+  cursor: pointer;
+}
+.attach-icon:hover {
+  color: #f26100d3;
+}

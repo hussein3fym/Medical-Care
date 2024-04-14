@@ -1,0 +1,64 @@
+.sideNav {
+  background-color: #212121;
+  padding: 3.2rem 2.4rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.792);
+  grid-row: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.SideIcon {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 3rem;
+  border-right: 2px solid #f26100d3;
+}
+.Dash-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Dash-links li:active,
+.Dash-links li.active:link,
+.Dash-links li.active:visited {
+  background-color: #f26100d3;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+}
+.StyledNavLink,
+.StyledNavLink:link,
+.StyledNavLink:visited {
+  display: flex;
+  align-items: center;
+  font-family: Monterrat;
+  gap: 1.2rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.2rem 2.2rem;
+  transition: all 0.3s;
+}
+
+.StyledNavLink svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--color-grey-400);
+  transition: all 0.3s;
+}
+
+.StyledNavLink:hover,
+.StyledNavLink:active,
+.StyledNavLink.active:link,
+.StyledNavLink.active:visited {
+  background-color: #f26100d3;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+}
+.Icon {
+  border-radius: 10%;
+  width: 15rem;
+}
+.sideIcon {
+  width: 8rem;
+}
